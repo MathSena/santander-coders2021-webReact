@@ -7,6 +7,11 @@ import App4 from './components/App4';
 import App5 from './components/App5';
 import Lista from './components/Lista';
 import Formulario from './components/Formulario';
+import Hello from './components/Hello';
+import AppState from './components/AppState';
+import AppLifeCycle from './components/AppLifeCycle';
+
+
 
 
 
@@ -16,9 +21,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Formulario>
+    <Hello>
+      <h1>Hello</h1>
 
-      </Formulario>
+    </Hello>
 
 
   </React.StrictMode>,
